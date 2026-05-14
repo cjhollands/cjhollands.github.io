@@ -1,11 +1,11 @@
 // Bigger button
 function makeBigger() {
-    // makes font bigger upon click, no more alerts?
+    // makes font bigger upon click
     document.getElementById("textInput").style.fontSize = "24pt";
      
 }
 
-// Fancy / Boring radio buttons
+// Fancy and Boring radio buttons
 function applyStyles() {
     let text = document.getElementById("textInput");
     let header = document.getElementById("pageHeader"); // wanted to change the header color without CSS
